@@ -97,11 +97,12 @@
   margin: 0;
   color: #838383;
 }
+
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   padding: 100px 0 140px;
   background-size: cover;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
 
 
 }
@@ -126,15 +127,16 @@
 
 /* adicionar a regra CSS para sua nova classe aqui. Certifique-se de colocar antes de .card: os pais devem preceder seus filhos */
 
-.staff__cards{
-max-width: 760px;
-margin: 68px auto 0;/* faltava esse zero para nessa linha de código, preciso revisar isso durante a semana.*/
-display: flex;
-flex-wrap:wrap;
-justify-content:center;
-padding-left: 0;
-gap: 40px;
-list-style-type:none;
+.staff__cards {
+  max-width: 760px;
+  margin: 68px auto 0;
+  /* faltava esse zero para nessa linha de código, preciso revisar isso durante a semana.*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0;
+  gap: 40px;
+  list-style-type: none;
 }
 
 .card {
@@ -173,6 +175,7 @@ list-style-type:none;
   color: #838383;
   margin-top: auto;
 }
+
 .events {
   padding: 100px 0 120px 80px;
   display: flex;
@@ -236,15 +239,15 @@ list-style-type:none;
 }
 
 .events__cover {
- flex-grow: 1;
+  flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 780px;
   max-width: 780px;
-  position: relative; 
+  position: relative;
 }
 
 .events__image {
-   max-width: 100%; 
+  max-width: 100%;
 }
 
 .person {
@@ -257,42 +260,52 @@ list-style-type:none;
 
 .person_name_feynman {
   /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
+  top: -30px;
+  left: 319px;
 }
 
 .person_name_burbidge {
   /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
+  top: 96px;
+  right: 125px;
 }
 
 .person_name_cannon {
   /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
+  bottom: 18px;
+  right: 216px;
 }
 
 .person_name_mitchell {
   /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
+  bottom: 82px;
+  left: 142px;
 }
 
 .person_name_tarter {
   /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
+  top: 79px;
+  left: 159px;
 }
 
 .person__image {
-  max-width: 100%; 
+  max-width: 100%;
 }
 
 .person__image_size_l {
-   width: 140px; 
+  width: 140px;
 }
 
 .person__image_size_m {
-   width: 100px;
+  width: 100px;
 }
 
 .person__image_size_s {
-   width: 80px;
+  width: 80px;
 }
 
 .person__caption {
-   text-align: center;
+  text-align: center;
   font-size: 14px;
-  margin: 0; 
+  margin: 0;
 }
