@@ -384,6 +384,7 @@
 
 .footer__logo {
   height: 80px;
+  width: 50px;
   display: flex;
 }
 
@@ -391,6 +392,7 @@
   color: white;
   font-size: 20px;
   margin-top: 0;
+  margin-bottom: 24px;
 
 
 }
@@ -422,6 +424,8 @@
 .footer__social-icon {
   color: wihte;
   font-size: 16px;
+  width: 24px;
+  height: 24px;
 
 }
 
